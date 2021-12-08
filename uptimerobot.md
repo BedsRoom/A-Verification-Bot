@@ -10,6 +10,6 @@ app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
 
-//For uptimerobot ^
+// For uptimerobot ^
 // Add the rest of the code under here
 
