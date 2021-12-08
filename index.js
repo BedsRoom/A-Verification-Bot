@@ -36,6 +36,6 @@ client.on('clickButton', async (button) => {
     await member.roles.add(role)
 })
 
-client.login(process.env.token)
+client.login(process.env.token) // If running on replit put token in secrets.
 
 // Do npm i discord.js@12.5.3 in Shell before running
