@@ -5,14 +5,14 @@ require('discord-buttons')(client);
 
 client.on("ready", () => {
 
-    console.log("Bot onlin")
-    client.user.setActivity("Playing verifing user's || made by ThunderDEV#1111")
+    console.log("Bot online")
+    client.user.setActivity("Playing verifing user's || made by Beds")
 })
 
 client.on("message", (message) => {
 if (message.content !== "!rverify") return;
   const embed = new Discord.MessageEmbed()
-  .setTitle("Welcome to Thunder Development")
+  .setTitle("Welcome to Beds Development")
   .setDescription("Please verify by clicking on the button below.")
   .setColor('#38A800')
   
@@ -31,7 +31,7 @@ if (message.content !== "!rverify") return;
 client.on('clickButton', async (button) => {
     if (button.id !== "Verify") return;
     button.reply.send('You are now sucessfully verified.', true)
-    const role = button.guild.roles.cache.get("Your-role-if") 
+    const role = button.guild.roles.cache.get("Your-role-id") 
     const member = button.clicker.member
     await member.roles.add(role)
 })
