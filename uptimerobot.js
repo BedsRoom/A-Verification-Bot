@@ -11,6 +11,5 @@ app.listen(port, () => {
 })
 
 // For uptimerobot ^
-
-Add the rest of the code under here
+// Add the rest of the code under here
 
