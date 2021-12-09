@@ -1,5 +1,5 @@
-# Verification
-Do npm i discord.js@12.5.3 in Shell before running
+# Verification Bot
+NEW CODE COMING SOON! Code outdated.
 
 
 **Profile**  
