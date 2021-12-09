@@ -1,5 +1,5 @@
 # Verification Bot
-NEW CODE COMING SOON! Code outdated.
+Updated code for a better bot.
 
 
 **Profile**  
