@@ -90,7 +90,7 @@ require('http').createServer((req, res) => res.end(`
  |-----------------------------------------|
  |• Github: https://github.com/bedsroom    |
  |-----------------------------------------|
- |• License: Beds License 1.0              |
+ |• License: Beds License BETA             |
  |-----------------------------------------|
 `)).listen(3000) //Dont remove this 
 
