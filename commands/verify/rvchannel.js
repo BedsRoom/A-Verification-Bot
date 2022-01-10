@@ -8,13 +8,12 @@ module.exports = {
 
   run: (client, message, args) => {
    if (!message.member.hasPermission("ADMINISTRATION")) {
-      return message.channel.send("You do not enough permission to use this command.");
+      return message.channel.send("You do not enough permission to use this command. [Permission Needed-Administrator]");
     }
  
   db.delete(`verify_${message.guild.id}`);
 
 
-// This code is made by Supreme#2401
     
     message.channel.send(`Removed verification Channel.`)
   }
