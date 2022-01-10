@@ -86,11 +86,11 @@ require('http').createServer((req, res) => res.end(`
  |-----------------------------------------|
  |• Author: BedsRoom#9546                  |
  |-----------------------------------------|
- |• Server: https://discord.gg/mSkKPV4KKy  |
+ |• Server: no server yet                  |
  |-----------------------------------------|
  |• Github: https://github.com/bedsroom    |
  |-----------------------------------------|
- |• License: Beds License BETA             |
+ |• License: Beds License 1.0              |
  |-----------------------------------------|
 `)).listen(3000) //Dont remove this 
 
