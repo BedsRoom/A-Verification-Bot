@@ -8,7 +8,7 @@ module.exports = {
   run: (client, message, args) => {
 
      if (!message.member.hasPermission("ADMINISTRATION")) {
-      return message.channel.send("You do not enough permission to use this command.");
+      return message.channel.send("You do not enough permission to use this command. [Permission Needed-Administrator]");
     }
     let vrole = message.mentions.roles.first();
     if(!vrole) {
@@ -16,7 +16,6 @@ module.exports = {
     }
     
 
-   // This code is made by Supreme#2401
     db.set(`srrole_${message.guild.id}`, vrole.id)
     
     
